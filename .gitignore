@@ -45,3 +45,6 @@ terraform.rc
 # dotnet stuff
 /lambdas/dotnet/src/dotnet/bin
 /lambdas/dotnet/src/dotnet/obj
+
+# don't take updates to default config
+/terraform/env-config.yaml
