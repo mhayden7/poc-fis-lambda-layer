@@ -1,4 +1,4 @@
 # AWS Configuration
-account: **********
+account: 1234567
 region: us-east-1
 project: FIS
