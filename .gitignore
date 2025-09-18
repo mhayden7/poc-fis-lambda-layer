@@ -41,3 +41,7 @@ terraform.rc
 **/.venv/
 **/venv/
 /lambdas/python/package
+
+# dotnet stuff
+/lambdas/dotnet/src/dotnet/bin
+/lambdas/dotnet/src/dotnet/obj
