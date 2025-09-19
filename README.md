@@ -1,5 +1,5 @@
 # poc-fis-lambda-layer
-Test the AWS-provided FIS layer for lambda with several different lambda runtimes.
+Test the AWS-provided FIS layer for lambda with several different lambda runtimes. See how to build and deploy FIS lambda layers and templates using Terraform.
 
 # Requirements
 - python 3
