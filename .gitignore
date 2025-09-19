@@ -45,3 +45,10 @@ terraform.rc
 # dotnet stuff
 /lambdas/dotnet/src/dotnet/bin
 /lambdas/dotnet/src/dotnet/obj
+
+# don't upload config
+env-config.yaml
+
+# created lambda packages
+*.zip
+*.jar

@@ -1,0 +1,40 @@
+{
+    "actions": {
+        "poc-fis-lambda-layer": {
+            "actionId": "aws:lambda:invocation-error",
+            "description": "poc-fis-lambda-layer",
+            "parameters": {
+                "duration": "PT3M",
+                "invocationPercentage": "100",
+                "preventExecution": "true"
+            },
+            "targets": {
+                "Functions": "poc-fis-lambda-layer-functions"
+            }
+        }
+    },
+    "description": "poc-fis-lambda-layer",
+    "experimentOptions": {
+        "accountTargeting": "single-account",
+        "emptyTargetResolutionMode": "fail"
+    },
+    "roleArn": "arn:aws:iam::ACCOUNTID:role/fis_execution_role",
+    "stopConditions": [
+        {
+            "source": "none"
+        }
+    ],
+    "tags": {
+        "Name": "poc-fis-lambda-layer"
+    },
+    "targets": {
+        "poc-fis-lambda-layer-functions": {
+            "parameters": {},
+            "resourceTags": {
+                "project": "FIS"
+            },
+            "resourceType": "aws:lambda:function",
+            "selectionMode": "ALL"
+        }
+    }
+}
