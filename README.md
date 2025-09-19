@@ -7,6 +7,13 @@ Test the AWS-provided FIS layer for lambda with several different lambda runtime
 - terraform
 - aws cli
 
+## Disclaimer
+Although the services used in this tutorial might be inexpensive to most, they are not free. I am not responsible for any charges you incur, use at your own risk. I encourage you to be diligent with the [AWS Pricing Calculator](https://calculator.aws/#/addService) to help protect yourself from unexpected expenses.
+
+Services used in this demo project include:
+- FIS
+- Lambda
+
 # Deployment
 create the env-config file: ```cp terraform/env-config.yaml.template``` \
 Update the 'account' and 'region' parameters.\
