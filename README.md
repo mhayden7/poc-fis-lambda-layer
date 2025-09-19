@@ -23,7 +23,7 @@ Execute the publish.sh script.
 # Usage/Testing
 The default template provided will cause 100% failure of the example lambdas for 3 minutes.
 > [!WARNING]
-> If you have other lambdas in your account with the tag "project: FIS", they may be selected as part of the experiment! \
+> If you have other lambdas in your account with the tag "project: FIS", they may be selected as part of the experiment! 
 
 Go to the FIS console, 'Expirement Templates'. Select the 'poc-fis-lambda-layer' template, the select 'Start experiment'. You will be prompted to confirm.
 
