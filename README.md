@@ -15,7 +15,7 @@ Services used in this demo project include:
 - Lambda
 
 # Deployment
-create the env-config file: ```cp terraform/env-config.yaml.template``` \
+create the env-config file: ```cp terraform/env-config.yaml.template terraform/env-config.yaml``` \
 Update the 'account' and 'region' parameters.\
 Set your AWS creds in your CLI. \
 Execute the publish.sh script.
